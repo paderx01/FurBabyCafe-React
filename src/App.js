@@ -8,7 +8,15 @@ function App() {
       <Navbar dark color="light" sticky="top" expand="md">
         <Container>
           <NavbarBrand href="/">
-            <img src={logo} alt="Main Page" />
+            <img
+              style={{
+                width: 700,
+                height: 350,
+                alignItems: "center",
+              }}
+              src={logo}
+              alt="Main Page"
+            />
           </NavbarBrand>
         </Container>
       </Navbar>
