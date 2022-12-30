@@ -1,6 +1,5 @@
 import { Container, Row, Col, Card, CardBody, CardHeader } from "reactstrap";
 
-
 const AboutPage = () => {
   return (
     <Container>
@@ -36,10 +35,10 @@ const AboutPage = () => {
                 <dd className="col-6">November 1, 2021</dd>
                 <dt className="col-6">No. of location</dt>
                 <dd className="col-6">2</dd>
-                <dt className="col-6">No. of Reviews in 2021</dt>
-                <dd className="col-6">250</dd>
-                <dt className="col-6">Employees</dt>
-                <dd className="col-6">25</dd>
+                <dt className="col-6">No. of adoption</dt>
+                <dd className="col-6">364</dd>
+                <dt className="col-6">No. of baby available</dt>
+                <dd className="col-6">10</dd>
               </dl>
             </CardBody>
           </Card>
