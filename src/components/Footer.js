@@ -13,13 +13,10 @@ const Footer = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/directory">Directory</Link>
-              </li>
-              <li>
                 <Link to="/about">About</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/adoption">Adoption</Link>
               </li>
             </ul>
           </Col>
@@ -52,7 +49,7 @@ const Footer = () => {
           </Col>
           <Col sm="4" className="text-center">
             <a role="button" className="btn btn-link" href="tel:+12065551234">
-              <i className="fa fa-phone" /> 1-206-555-1234
+              <i className="fa fa-phone" /> 1-612-123-4567
             </a>
             <br />
             <a
@@ -60,7 +57,7 @@ const Footer = () => {
               className="btn btn-link"
               href="mailto:notreal@notreal.co"
             >
-              <i className="fa fa-envelope-o" /> campsites@nucamp.co
+              <i className="fa fa-envelope-o" /> contact@furbaby.com
             </a>
           </Col>
         </Row>

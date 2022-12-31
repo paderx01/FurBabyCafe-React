@@ -5,8 +5,8 @@ const AboutPage = () => {
     <Container>
       <Row className="row-content">
         <Col sm="6">
-          <h3>Our mission</h3>
-          <h2>Creating connections between human and fur babies</h2>
+          <h2>Our mission</h2>
+          <h4>Creating connections between human and fur babies</h4>
           <p>
             We further our mission by placing our fur babies into nuturing homes
             by working with both cat and dog rescues and providing resources to

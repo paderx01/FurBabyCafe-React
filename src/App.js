@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/aboutus" element={<AboutPage />} />
-        <Route path="./pages/adoption.js" element={<Adoption />} />
+        <Route path="/adoption" element={<Adoption />} />
       </Routes>
     </div>
   );
