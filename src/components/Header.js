@@ -8,14 +8,20 @@ import {
   NavItem,
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
-import logo from "../app/assets/img/main.png";
+import logo from "../app/assets/img/shiba-starbucks.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <Navbar dark color="primary" sticky="top" expand="md">
+    <Navbar dark color="dark" sticky="top" expand="md">
       <NavbarBrand className="ms-5" href="/">
-        <img src={logo} alt="Main Logo" className="float-start" />
+        <img
+          src={logo}
+          alt="Main Logo"
+          className="float-start"
+          width="700"
+          height="300"
+        />
         <h1 className="mt-1">Fur Baby Cafe</h1>
       </NavbarBrand>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
@@ -27,18 +33,13 @@ const Header = () => {
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link" to="/directory">
-              <i className="fa fa-list fa-lg" /> Directory
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink className="nav-link" to="/about">
+            <NavLink className="nav-link" to="/aboutus">
               <i className="fa fa-info fa-lg" /> About
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link" to="/contact">
-              <i className="fa fa-address-card fa-lg" /> Contact
+            <NavLink className="nav-link" to="/Adoption">
+              <i className="fa fa-address-card fa-lg" /> Adoption
             </NavLink>
           </NavItem>
         </Nav>

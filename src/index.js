@@ -6,10 +6,13 @@ import "bootstrap-social/bootstrap-social.css";
 import "font-awesome/css/font-awesome.css";
 import "typeface-lobster";
 import "typeface-open-sans";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
